@@ -52,7 +52,7 @@ export default function Navbar() {
               e.preventDefault();
               scrollToSection("#hero");
             }}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-xl transition-all ${
+            className={`flex items-center space-x-1 sm:space-x-2 px-1 sm:px-4 py-2 rounded-xl transition-all ${
               isScrolled
                 ? "bg-gradient-to-r from-cyan-500/10 to-fuchsia-500/10 border border-cyan-500/30 shadow-lg shadow-cyan-500/20"
                 : "bg-white/10 backdrop-blur-md border border-white/20 shadow-lg shadow-white/10"
@@ -60,10 +60,10 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-fuchsia-500 flex items-center justify-center shadow-lg">
-              <span className="text-white font-bold text-lg">AE</span>
+            <div className="hidden sm:flex w-7 h-7 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-fuchsia-500 items-center justify-center shadow-lg">
+              <span className="text-white font-bold text-xs sm:text-lg">AE</span>
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden sm:flex">
               <span className={`font-bold text-lg bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent`}>
                 Ahmed Ellouze
               </span>
