@@ -79,11 +79,12 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 1.2 }}
         >
           <a
-            href="/Ellouze-AHMED-27-03-26.pdf"
-            className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-fuchsia-500 text-white rounded-lg font-semibold hover:from-cyan-600 hover:to-fuchsia-600 transition transform hover:scale-105 shadow-lg shadow-cyan-500/25 backdrop-blur-sm"
-          >
-            Télécharger mon CV
-          </a>
+  href="/portfolio/Ellouze-AHMED-27-03-26.pdf"
+  target="_blank"
+  className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-fuchsia-500 text-white rounded-lg font-semibold hover:scale-105"
+>
+  Télécharger mon CV
+</a>
           <a
             href="#contact"
             className="px-8 py-4 bg-white/10 backdrop-blur-md border-2 border-white/30 text-white rounded-lg font-semibold hover:bg-white/20 hover:border-white/50 transition transform hover:scale-105"
